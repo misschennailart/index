@@ -56,6 +56,14 @@
         
         <!-- 標題與副標題區塊 -->
         <header class="flex flex-col items-center mb-8 text-center mt-4">
+            
+            <!-- 加入 Logo 圖片區塊 -->
+            <div class="w-24 h-24 mb-5 rounded-full overflow-hidden border border-gray-200 bg-white flex items-center justify-center shadow-sm">
+                <!-- src="logo.jpg" 對應您上傳的檔名。若是 png 請改成 logo.png -->
+                <!-- onerror 設定為如果圖片還沒上傳或檔名錯誤時，暫時隱藏破圖圖示 -->
+                <img src="logo.jpg" alt="陳姓女子美甲工作室 Logo" class="w-full h-full object-cover" onerror="this.style.display='none'">
+            </div>
+
             <h1 class="text-xl font-medium text-gray-700 tracking-widest mb-1.5">陳姓女子美甲工作室</h1>
             <p class="text-sm font-light text-gray-500 tracking-widest">miss.chen_nail.art</p>
         </header>
