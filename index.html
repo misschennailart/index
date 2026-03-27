@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陳姓女子美甲工作室 | 專屬連結</title>
+    <!-- 引入 Tailwind CSS 框架 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 引入 Lucide Icons 圖示庫 -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- 引入 Google 字體 Noto Sans TC -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+        
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            /* 明亮的灰白動態漸層背景 */
+            background: linear-gradient(-45deg, #ffffff, #f3f4f6, #e5e7eb, #f9fafb);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* 按鈕懸浮效果 */
+        .link-btn {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .link-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+        }
+        
+        /* 隱藏捲軸但可滾動 */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4 sm:p-8 text-gray-800 relative overflow-x-hidden">
+
+    <!-- 背景裝飾圓圈 (淺灰色，營造空間感) -->
+    <div class="fixed -top-32 -right-32 w-96 h-96 bg-gray-200 rounded-full mix-blend-multiply filter blur-3xl opacity-50 z-0 pointer-events-none"></div>
+    <div class="fixed -bottom-32 -left-32 w-96 h-96 bg-gray-300 rounded-full mix-blend-multiply filter blur-3xl opacity-50 z-0 pointer-events-none"></div>
+
+    <!-- 主容器，拿掉外框，讓頁面一體成型 -->
+    <main class="w-full max-w-md relative z-10 flex flex-col justify-center min-h-[85vh]">
+        
+        <!-- 標題與副標題區塊 -->
+        <header class="flex flex-col items-center mb-8 text-center mt-4">
+            <h1 class="text-xl font-medium text-gray-700 tracking-widest mb-1.5">陳姓女子美甲工作室</h1>
+            <p class="text-sm font-light text-gray-500 tracking-widest">miss.chen_nail.art</p>
+        </header>
+
+        <!-- 連結列表區塊 (俐落直角、小尺寸間距) -->
+        <div class="space-y-3 w-full">
+            
+            <!-- 主打服務 / 預約 -->
+            <a href="https://misschennailart.my.canva.site/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRleAQyNc5leHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAafG3zbOGKvASJl_7YMW6wVDIaZcRTrbaxYTAFdMdeseYMqb7xdgdR009GNp1Q_aem_okj94kUcLu9QUkHPLHQLPg" 
+               target="_blank" rel="noopener noreferrer" 
+               class="link-btn w-full flex items-center py-2.5 px-3 bg-white border border-gray-200 text-gray-600 text-sm hover:text-black hover:border-gray-900 group">
+                <div class="w-8 h-8 flex items-center justify-center bg-gray-50 text-gray-500 group-hover:bg-gray-900 group-hover:text-white transition-colors duration-300">
+                    <i data-lucide="home" class="w-4 h-4"></i>
+                </div>
+                <!-- pr-11 剛好平衡左側圖示佔用的空間，確保文字完美置中 -->
+                <span class="ml-3 font-medium flex-grow text-center pr-11 tracking-widest">陳姓女子美甲工作室</span>
+            </a>
+
+            <a href="https://lin.ee/IvGqurY" 
+               target="_blank" rel="noopener noreferrer" 
+               class="link-btn w-full flex items-center py-2.5 px-3 bg-white border border-gray-200 text-gray-600 text-sm hover:text-black hover:border-gray-900 group">
+                <div class="w-8 h-8 flex items-center justify-center bg-gray-50 text-gray-500 group-hover:bg-gray-900 group-hover:text-white transition-colors duration-300">
+                    <i data-lucide="message-circle" class="w-4 h-4"></i>
+                </div>
+                <span class="ml-3 font-medium flex-grow text-center pr-11 tracking-widest">美甲預約 (官方 LINE)</span>
+            </a>
+
+            <a href="https://misschennailart.github.io/nail_quiz/nail_quiz.html" 
+               target="_blank" rel="noopener noreferrer" 
+               class="link-btn w-full flex items-center py-2.5 px-3 bg-white border border-gray-200 text-gray-600 text-sm hover:text-black hover:border-gray-900 group">
+                <div class="w-8 h-8 flex items-center justify-center bg-gray-50 text-gray-500 group-hover:bg-gray-900 group-hover:text-white transition-colors duration-300">
+                    <i data-lucide="sparkles" class="w-4 h-4"></i>
+                </div>
+                <span class="ml-3 font-medium flex-grow text-center pr-11 tracking-widest">美甲款式選擇困難點我</span>
+            </a>
+
+            <!-- 分隔線與小標題 -->
+            <div class="py-5 flex items-center justify-center">
+                <div class="h-px bg-gray-200 flex-grow"></div>
+                <span class="px-4 text-[10px] font-semibold text-gray-400 tracking-widest uppercase">Tools</span>
+                <div class="h-px bg-gray-200 flex-grow"></div>
+            </div>
+
+            <!-- 小工具系列 -->
+            <a href="https://misschennailart.github.io/calculator/%E7%BE%8E%E6%A5%AD%E8%A8%88%E7%AE%97%E6%A9%9F-%E6%9C%80%E7%B5%82%E7%89%88.html" 
+               target="_blank" rel="noopener noreferrer" 
+               class="link-btn w-full flex items-center py-2.5 px-3 bg-white border border-gray-200 text-gray-600 text-sm hover:text-black hover:border-gray-900 group">
+                <div class="w-8 h-8 flex items-center justify-center bg-gray-50 text-gray-500 group-hover:bg-gray-900 group-hover:text-white transition-colors duration-300">
+                    <i data-lucide="calculator" class="w-4 h-4"></i>
+                </div>
+                <span class="ml-3 font-medium flex-grow text-center pr-11 tracking-widest">公版美業計算機</span>
+            </a>
+
+            <a href="https://misschennailart.github.io/fftarot/%E6%AF%8F%E6%97%A5%E6%8C%87%E5%BC%95.html" 
+               target="_blank" rel="noopener noreferrer" 
+               class="link-btn w-full flex items-center py-2.5 px-3 bg-white border border-gray-200 text-gray-600 text-sm hover:text-black hover:border-gray-900 group">
+                <div class="w-8 h-8 flex items-center justify-center bg-gray-50 text-gray-500 group-hover:bg-gray-900 group-hover:text-white transition-colors duration-300">
+                    <i data-lucide="moon-star" class="w-4 h-4"></i>
+                </div>
+                <span class="ml-3 font-medium flex-grow text-center pr-11 tracking-widest">FF Tarot 每日療癒指引</span>
+            </a>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-auto pt-10 text-center pb-2">
+            <p class="text-xs text-gray-400">© 2024 陳姓女子美甲工作室</p>
+        </footer>
+            
+    </main>
+
+    <!-- 啟動 Lucide 圖示 -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
